@@ -206,7 +206,7 @@ button::-moz-focus-inner {
     margin-left: 31px; }
   .mfp-arrow-left:before {
     margin-left: 25px;
-    border-right: 27px solid #3F3F3F; }
+    border-right: 27px solid rgb(131,138,139); }
 
 .mfp-arrow-right {
   right: 0; }
@@ -214,7 +214,7 @@ button::-moz-focus-inner {
     border-left: 17px solid #FFF;
     margin-left: 39px; }
   .mfp-arrow-right:before {
-    border-left: 27px solid #3F3F3F; }
+    border-left: 27px solid rgb(131,138,139); }
 
 .mfp-iframe-holder {
   padding-top: 40px;
