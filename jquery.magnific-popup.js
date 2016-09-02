@@ -1135,7 +1135,7 @@ $.magnificPopup.registerModule('image', {
 						'<div class="mfp-img"></div>'+
 						'<figcaption>'+
 							'<div class="mfp-bottom-bar">'+
-								// '<div class="mfp-title"></div>'+
+								//'<div class="mfp-title"></div>'+
 								'<div class="mfp-counter"></div>'+
 							'</div>'+
 						'</figcaption>'+
