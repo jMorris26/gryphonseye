@@ -1,0 +1,794 @@
+
+#topofpage {
+  background-color: rgba(61, 36, 21, 0.5);
+  background-image: url('images/IMG_2498.JPG');
+  background-blend-mode: overlay;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.nopad {
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 8em;
+  font-family: Abril Fatface, cursive;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 2px rgba(28, 26, 26, 0.7);
+  margin: 0;
+  position: absolute;
+  top: 500px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.glyphicon {
+  font-size: 0.2em;
+  opacity: 0.7;
+}
+
+.tagline {
+  font-size: 0.2em;
+  text-align: center;
+  font-family: Open Sans, sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+  text-shadow: 2px 2px 2px rgba(28, 26, 26, 0.7);
+}
+
+li {
+  list-style-type: none;
+  margin-top: 1em;
+  margin-left: 2em;
+  color: rgb(61, 36, 21);
+}
+
+li:hover {
+  color: rgba(61, 36, 21, 0.5);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+.pseudolink {
+  text-align: center;
+  cursor: pointer;
+}
+
+#git {
+  height: 4.5em;
+}
+
+#li {
+  height: 3em;
+}
+
+.col-md-2 {
+  margin-top: 2em;
+  background-color: rgb(255, 255, 255);
+  border-radius: 2em;
+  margin-left: -2em;
+  font-family: Open Sans, sans-serif;
+  font-size: 1.5em;
+  padding-bottom: 1em;
+  position: fixed;
+  box-shadow: 2px 2px 2px rgba(61, 36, 21, 0.7);
+  z-index: 1;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+#about {
+  padding-top: 3em;
+}
+
+#about .row {
+  background-color: rgb(131,138,139);
+  height: 100vh;
+  padding-top: 3em;
+}
+
+h2 {
+  text-align: center;
+  font-family: Abril Fatface, cursive;
+  color: rgb(255, 255, 255);
+  font-size: 6em;
+  text-shadow: 2px 2px 2px rgba(61, 36, 21, 0.7);
+}
+
+p {
+  font-family: Open Sans, sans-serif;
+  color: rgb(255, 255, 255);
+  padding-bottom: 1em;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+hr {
+  width: 90%;
+}
+
+.mecoffee {
+  height: 90vh;
+  float: right;
+  margin-bottom: 3em;
+}
+
+.aboutcontent {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.facepic {
+  border-radius: 50%;
+  width: 20em;
+  border: 3px solid rgb(61, 36, 21);
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  display: block;
+  padding: 0.5em;
+}
+
+.ido {
+  background-color: rgb(51,44,39);
+  height: 100vh;
+  /*height: 500px;*/
+}
+
+.ido h2 {
+  color: rgb(255, 255, 255);
+  margin-top: 3em;
+}
+
+.ido p {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.port {
+  height: 100vh;
+}
+
+.portf {
+  background-color: rgb(51,44,39);
+  padding-top: 5em;
+}
+
+.thumb {
+  border-radius: 50%;
+  width: 100%;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.portfolioTitle {
+  color: rgba(255, 255, 255, 1);
+  font-size: 1.5em;
+  text-align: center;
+  font-family: Open Sans, sans-serif;
+}
+
+#footer {
+  width: 100%;
+  text-align: center;
+  font-size: 0.75em;
+  margin-top: 10em;
+}
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+
+
+/*iPhone6 landscape media queries*/
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : landscape) {
+
+  html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
+
+  .col-md-2 {
+    width: 30%;
+  }
+
+  h1 {
+    font-size: 6em;
+    margin-top: -2em;
+  }
+
+  .alt3 {
+    float: left;
+  }
+
+  .alt4 {
+    float: left;
+  }
+
+  .col-md-1 {
+    float: left;
+  }
+
+  .aboutcontent {
+    margin-top: -3em;
+  }
+
+  #about .row {
+    height: 65em;
+  }
+
+  p {
+    margin-left: 6em;
+    margin-right: 20em;
+    font-size: 3em;
+    text-align: left;
+    padding-bottom: 3em;
+  }
+
+  .mecoffee {
+    float: right;
+    margin-top: -40em;
+    margin-left: 45em;
+    height: 50em;
+  }
+
+  .col-md-3 {
+    width: 20%;
+    display: inline;
+    float: left;
+  }
+
+  .thumbrow {
+    transform: translate(10%);
+  }
+
+}
+
+
+/*iPhone5 media queries*/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+
+  html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
+
+  .col-md-2 {
+    width: 30%;
+  }
+
+  h1 {
+    font-size: 6em;
+    margin-top: -2em;
+  }
+
+  .alt3 {
+    float: left;
+  }
+
+  .alt4 {
+    float: left;
+  }
+
+  .col-md-1 {
+    float: left;
+  }
+
+  .aboutcontent {
+    margin-top: -8em;
+  }
+
+  #about .row {
+    height: 65em;
+  }
+
+  p {
+    margin-left: 4em;
+    margin-right: 14em;
+    font-size: 2em;
+    text-align: left;
+    padding-bottom: 3em;
+  }
+
+  .mecoffee {
+    float: right;
+    margin-top: -30em;
+    margin-left: 45em;
+    height: 50em;
+  }
+
+  .col-md-3 {
+    width: 20%;
+    display: inline;
+    float: left;
+  }
+
+  .thumbrow {
+    transform: translate(10%);
+  }
+
+}
+
+
+/*iPhone6 media queries landscape below*/
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (orientation : landscape) {
+  html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
+  .col-md-2 {
+    width: 30%;
+  }
+
+  h1 {
+    font-size: 6em;
+    margin-top: -2em;
+  }
+
+  .alt3 {
+    float: left;
+  }
+
+  .alt4 {
+    float: left;
+  }
+
+  .col-md-1 {
+    float: left;
+  }
+
+  .aboutcontent {
+    margin-top: -8em;
+  }
+
+  #about .row {
+    height: 65em;
+  }
+
+  p {
+    margin-left: 4em;
+    margin-right: 14em;
+    font-size: 1.5em;
+    text-align: left;
+    padding-bottom: 3em;
+  }
+
+  .iconlinks {
+    margin-left: 4em;
+  }
+
+  .mecoffee {
+    float: right;
+    margin-top: -35em;
+    margin-left: 45em;
+    height: 50em;
+  }
+
+  .col-md-3 {
+    width: 20%;
+    display: inline;
+    float: left;
+  }
+
+  .thumbrow {
+    transform: translate(10%);
+  }
+}
+
+
+/*iPhone media queries*/
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : portrait) {
+
+  html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
+
+  .col-md-2 {
+    width: 100%;
+    z-index: 1;
+  }
+
+  .theicons {
+    margin-left: 9em;
+  }
+
+  li {
+    font-size: 2em;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 12em;
+    width: 100%;
+  }
+
+  .facepic {
+    width: 50%;
+  }
+
+  p {
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 1em;
+  }
+
+
+  #centermobile {
+    width: 100vw;
+    float: left;
+    margin-top: -1.5em;
+    padding-bottom: 3em;
+  }
+
+  .thumb {
+    width: 20%;
+  }
+
+  #titledesign {
+    margin-top: 20em;
+  }
+
+}
+
+/*iPhone5 media queries below*/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+
+  html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
+
+  .col-md-2 {
+    width: 100%;
+    padding-bottom: 2em;
+    margin-top: 1em;
+    z-index: 1;
+  }
+
+  li {
+    display: inline-block;
+    font-size: 2em;
+    margin-left: 1.5em;
+  }
+
+  .col-md-3 {
+    width: 25%;
+    margin-right: 0;
+    display: inline;
+  }
+
+  .col-md-1 {
+    width: 25%;
+    margin-right: 0;
+    display: inline;
+  }
+
+  .col-md-4 {
+    width: 25%;
+    margin-right: 0;
+    display: inline;
+  }
+
+  .mecoffee {
+    height: 70vh;
+    position: relative;
+    margin-top: -90em;
+    transform: translateY(-50%);
+    margin-right: -4em;
+  }
+
+  h2 {
+    font-size: 8em;
+  }
+
+  p {
+    font-size: 2em;
+    text-align: left;
+    margin-left: 1em;
+  }
+
+  #about .row {
+    position: relative;
+  }
+
+  .aboutcontent {
+    overflow: auto;
+    width: 50%;
+    float: left;
+    margin-left: 1em;
+    margin-top: 60em;
+    position: relative;
+  }
+
+  .theicons {
+    margin-left: 9em;
+  }
+
+  .tagline {
+    font-size: 0.3em;
+  }
+
+  header {
+    height: 100vh;
+  }
+
+  .glyphicon {
+    font-size: 0.3em;
+    margin-top: -1em;
+  }
+
+  h1 {
+    text-align: center;
+    margin-top: 3em;
+    font-size: 10em;
+    width: 100%;
+  }
+
+  #centermobile {
+    width: 100vw;
+    float: left;
+    margin-top: -1.5em;
+    padding-bottom: 3em;
+  }
+
+  .thumb {
+    width: 20%;
+  }
+
+  #titledesign {
+    margin-top: 20em;
+  }
+
+
+}
+
+/*iPad below*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+
+  html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
+
+  h2 {
+    font-size: 4em;
+  }
+
+  .aboutcontent {
+    padding-bottom: 5em;
+    text-align: left;
+    width: 100%;
+  }
+
+
+  p {
+    text-align: left;
+    margin-left: 2em;
+    margin-right: 20em;
+  }
+
+
+  h1 {
+    margin-top: -1em;
+    font-size: 6em;
+  }
+
+  .col-md-2 {
+    width: 30%;
+    padding-right: 0;
+  }
+
+  h1 {
+    float: right;
+  }
+
+  .iconlinks {
+    margin-left: -23em;
+  }
+
+  .mecoffee {
+    float: left;
+    position: absolute;
+    margin-top: -50em;
+    margin-left: 45em;
+  }
+
+  .thumbrow {
+    width: 80%;
+    margin-left: 7.5em;
+  }
+
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+
+  html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
+
+  .col-md-2 {
+    width: 100%;
+    padding-bottom: 2em;
+    margin-top: 1em;
+    z-index: 1;
+  }
+
+  li {
+    display: inline-block;
+    font-size: 2em;
+    margin-left: 1.5em;
+  }
+
+  .col-md-3 {
+    width: 25%;
+    margin-right: 0;
+    display: inline;
+  }
+
+  .col-md-1 {
+    width: 25%;
+    margin-right: 0;
+    display: inline;
+  }
+
+  .col-md-4 {
+    width: 25%;
+    margin-right: 0;
+    display: inline;
+  }
+
+  .mecoffee {
+    height: 70vh;
+    position: relative;
+    margin-top: 50em;
+    transform: translateY(-50%);
+  }
+
+  h2 {
+    font-size: 8em;
+  }
+
+  p {
+    font-size: 2em;
+    text-align: left;
+    margin-left: 1em;
+  }
+
+  #about .row {
+    position: relative;
+  }
+
+  .aboutcontent {
+    overflow: auto;
+    width: 50%;
+    float: left;
+    margin-left: 1em;
+    margin-top: 45em;
+    position: relative;
+  }
+
+  .theicons {
+    margin-left: 9em;
+  }
+
+  .tagline {
+    font-size: 0.3em;
+  }
+
+  header {
+    height: 100vh;
+  }
+
+  .glyphicon {
+    font-size: 0.3em;
+    margin-top: -1em;
+  }
+
+  h1 {
+    text-align: center;
+    margin-top: 3em;
+    font-size: 10em;
+    width: 100%;
+  }
+
+  #centermobile {
+    width: 100vw;
+    float: left;
+    margin-top: -1.5em;
+    padding-bottom: 3em;
+  }
+
+  .thumb {
+    width: 20%;
+  }
+
+  #titledesign {
+    margin-top: 15em;
+  }
+
+  .portfolioTitle {
+    font-size: 2em;
+  }
+
+}
+
+
+
+
+/*Galaxy S5 media queries below*/
+@media screen and (device-width: 360px) and (device-height: 640px) {
+
+  html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
+
+  .col-md-2 {
+    width: 100%;
+    padding-bottom: 2em;
+    margin-top: 1em;
+    z-index: 1;
+  }
+
+  li {
+    font-size: 2em;
+  }
+
+  h1 {
+    text-align: center;
+    /*margin-top: 1.5em;*/
+    font-size: 8em;
+    width: 100%;
+  }
+
+  .mecoffee {
+    margin-top: -90em;
+  }
+
+  .aboutcontent {
+    margin-left: 3em;
+  }
+}

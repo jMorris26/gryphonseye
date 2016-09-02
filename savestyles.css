@@ -1,0 +1,45 @@
+li {
+  list-style-type: none;
+  margin-top: 1em;
+  margin-left: 2em;
+  color: rgb(61, 36, 21);
+}
+
+li:hover {
+  color: rgba(61, 36, 21, 0.5);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+.col-md-2 {
+  margin-top: 2em;
+  background-color: rgb(255, 255, 255);
+  border-radius: 2em;
+  margin-left: -2em;
+  font-family: Open Sans, sans-serif;
+  font-size: 1.5em;
+  padding-bottom: 1em;
+  position: fixed;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+/*<div class="col-md-2">
+  <div class="navbar">
+    <ul>
+      <a href="#about"><li>ABOUT ME</li></a>
+      <a href="#whatido"><li>WHAT I DO</li></a>
+      <a href="#portfolio"><li>MY PORTFOLIO</li></a>
+      <li><a href="https://github.com/jMorris26"><img src="images/github.svg" class="icon"/></a> <a href="https://www.linkedin.com/in/jmorris26"><img src="images/linkedin.png" class="icon"/></a></li>
+    </ul>
+
+  </div>
+</div>*/
