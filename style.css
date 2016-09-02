@@ -274,6 +274,10 @@ and (orientation : landscape) {
     overflow-x:hidden;
   }
 
+  #topofpage {
+    background-size: 100vw;
+  }
+
   .col-md-2 {
     width: 30%;
   }
@@ -341,6 +345,11 @@ and (orientation : landscape) {
     width:100%;
     overflow-x:hidden;
   }
+
+  #topofpage {
+    background-size: 100vw;
+  }
+
   .col-md-2 {
     width: 30%;
   }
@@ -411,6 +420,10 @@ and (orientation : portrait) {
   body{
     width:100%;
     overflow-x:hidden;
+  }
+
+  #topofpage {
+    background-size: auto;
   }
 
   .col-md-2 {
