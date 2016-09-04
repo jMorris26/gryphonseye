@@ -616,10 +616,18 @@ and (orientation : landscape) {
     padding-bottom: 0;
   }
 
-  .thumbrow {
-    transform: translate(10%);
+  .thumb {
+    width: 70%;
   }
 
+  .thumbrow {
+    transform: translate(10%);
+
+  }
+
+  .des {
+    margin-left: 12em;
+  }
 
 }
 
