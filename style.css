@@ -366,9 +366,9 @@ and (max-device-width : 568px) {
     padding-bottom: 3em;
   }
 
-  .portfolioTitle {
+  /*.portfolioTitle {
     margin-top: 12em;
-  }
+  }*/
 
   .thumb {
     width: 20%;
