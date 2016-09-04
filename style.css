@@ -191,7 +191,183 @@ hr {
 /* ~~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~ */
 
 
+/*iPhone media queries*/
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : portrait) {
 
+  html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
+
+  #topofpage {
+    background-size: auto;
+  }
+
+  .col-md-2 {
+    width: 100%;
+    z-index: 1;
+  }
+
+  .theicons {
+    margin-left: 9em;
+  }
+
+  li {
+    font-size: 2em;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 12em;
+    width: 100%;
+  }
+
+  .facepic {
+    width: 50%;
+  }
+
+  p {
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 1em;
+  }
+
+
+  #centermobile {
+    width: 100vw;
+    float: left;
+    margin-top: -1.5em;
+    padding-bottom: 3em;
+  }
+
+  .thumb {
+    width: 20%;
+  }
+
+  #titledesign {
+    margin-top: 20em;
+  }
+
+}
+
+/*iPhone5 media queries below*/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+
+  html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
+
+  .col-md-2 {
+    width: 100%;
+    padding-bottom: 2em;
+    margin-top: 1em;
+    z-index: 1;
+  }
+
+  li {
+    display: inline-block;
+    font-size: 2em;
+    margin-left: 1.5em;
+  }
+
+  .col-md-3 {
+    width: 25%;
+    margin-right: 0;
+    display: inline;
+  }
+
+  .col-md-1 {
+    width: 25%;
+    margin-right: 0;
+    display: inline;
+  }
+
+  .col-md-4 {
+    width: 25%;
+    margin-right: 0;
+    display: inline;
+  }
+
+  .mecoffee {
+    height: 70vh;
+    position: relative;
+    margin-top: -90em;
+    transform: translateY(-50%);
+    margin-right: -4em;
+  }
+
+  h2 {
+    font-size: 8em;
+  }
+
+  p {
+    font-size: 2em;
+    text-align: left;
+    margin-left: 1em;
+  }
+
+  #about .row {
+    position: relative;
+  }
+
+  .aboutcontent {
+    overflow: auto;
+    width: 50%;
+    float: left;
+    margin-left: 1em;
+    margin-top: 60em;
+    position: relative;
+  }
+
+  .theicons {
+    margin-left: 9em;
+  }
+
+  .tagline {
+    font-size: 0.3em;
+  }
+
+  header {
+    height: 100vh;
+  }
+
+  .glyphicon {
+    font-size: 0.3em;
+    margin-top: -1em;
+  }
+
+  h1 {
+    text-align: center;
+    margin-top: 3em;
+    font-size: 10em;
+    width: 100%;
+  }
+
+  #centermobile {
+    width: 100vw;
+    float: left;
+    margin-top: -1.5em;
+    padding-bottom: 3em;
+  }
+
+  .thumb {
+    width: 20%;
+  }
+
+  #titledesign {
+    margin-top: 20em;
+  }
+
+
+}
 
 /*iPhone6 landscape media queries*/
 @media only screen
@@ -409,184 +585,6 @@ and (orientation : landscape) {
   }
 }
 
-
-/*iPhone media queries*/
-@media only screen
-and (min-device-width : 375px)
-and (max-device-width : 667px)
-and (orientation : portrait) {
-
-  html,
-  body{
-    width:100%;
-    overflow-x:hidden;
-  }
-
-  #topofpage {
-    background-size: auto;
-  }
-
-  .col-md-2 {
-    width: 100%;
-    z-index: 1;
-  }
-
-  .theicons {
-    margin-left: 9em;
-  }
-
-  li {
-    font-size: 2em;
-  }
-
-  h1 {
-    text-align: center;
-    font-size: 12em;
-    width: 100%;
-  }
-
-  .facepic {
-    width: 50%;
-  }
-
-  p {
-    margin-left: 2em;
-    margin-right: 2em;
-    margin-top: 1em;
-  }
-
-
-  #centermobile {
-    width: 100vw;
-    float: left;
-    margin-top: -1.5em;
-    padding-bottom: 3em;
-  }
-
-  .thumb {
-    width: 20%;
-  }
-
-  #titledesign {
-    margin-top: 20em;
-  }
-
-}
-
-/*iPhone5 media queries below*/
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 568px) {
-
-  html,
-  body{
-    width:100%;
-    overflow-x:hidden;
-  }
-
-  .col-md-2 {
-    width: 100%;
-    padding-bottom: 2em;
-    margin-top: 1em;
-    z-index: 1;
-  }
-
-  li {
-    display: inline-block;
-    font-size: 2em;
-    margin-left: 1.5em;
-  }
-
-  .col-md-3 {
-    width: 25%;
-    margin-right: 0;
-    display: inline;
-  }
-
-  .col-md-1 {
-    width: 25%;
-    margin-right: 0;
-    display: inline;
-  }
-
-  .col-md-4 {
-    width: 25%;
-    margin-right: 0;
-    display: inline;
-  }
-
-  .mecoffee {
-    height: 70vh;
-    position: relative;
-    margin-top: -90em;
-    transform: translateY(-50%);
-    margin-right: -4em;
-  }
-
-  h2 {
-    font-size: 8em;
-  }
-
-  p {
-    font-size: 2em;
-    text-align: left;
-    margin-left: 1em;
-  }
-
-  #about .row {
-    position: relative;
-  }
-
-  .aboutcontent {
-    overflow: auto;
-    width: 50%;
-    float: left;
-    margin-left: 1em;
-    margin-top: 60em;
-    position: relative;
-  }
-
-  .theicons {
-    margin-left: 9em;
-  }
-
-  .tagline {
-    font-size: 0.3em;
-  }
-
-  header {
-    height: 100vh;
-  }
-
-  .glyphicon {
-    font-size: 0.3em;
-    margin-top: -1em;
-  }
-
-  h1 {
-    text-align: center;
-    margin-top: 3em;
-    font-size: 10em;
-    width: 100%;
-  }
-
-  #centermobile {
-    width: 100vw;
-    float: left;
-    margin-top: -1.5em;
-    padding-bottom: 3em;
-  }
-
-  .thumb {
-    width: 20%;
-  }
-
-  #titledesign {
-    margin-top: 20em;
-  }
-
-
-}
 
 /*iPad below*/
 @media only screen
