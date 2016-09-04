@@ -358,7 +358,7 @@ and (max-device-width : 568px) {
   #centermobile {
     width: 100vw;
     float: left;
-    margin-top: -1.5em;
+    /*margin-top: -1.5em;*/
     padding-bottom: 3em;
   }
 
@@ -619,6 +619,7 @@ and (orientation : landscape) {
   .thumbrow {
     transform: translate(10%);
   }
+
 
 }
 
