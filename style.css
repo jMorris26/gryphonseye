@@ -367,9 +367,13 @@ and (max-device-width : 568px) {
   }
 
   #titledesign {
-    margin-top: 0em;
+    margin-top: 8em;
     height: 1em;
     margin-right: 5em;
+  }
+
+  .fixlandscape {
+    height: 5em;
   }
 
 
