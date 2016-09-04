@@ -453,6 +453,14 @@ and (orientation : landscape) {
     width: 70%;
   }
 
+  .portfolioTitle {
+    margin-left: -9.75em;
+  }
+
+  hr {
+    margin-left: 14em;
+  }
+
 }
 
 
@@ -541,6 +549,14 @@ and (orientation : landscape) {
 
   .thumb {
     width: 70%;
+  }
+
+  .portfolioTitle {
+    margin-left: -9.75em;
+  }
+
+  hr {
+    margin-left: 14em;
   }
 
 }
