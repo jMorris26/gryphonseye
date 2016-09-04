@@ -372,10 +372,6 @@ and (max-device-width : 568px) {
     margin-right: 5em;
   }
 
-  .fixlandscape {
-    height: 5em;
-  }
-
 
 }
 
