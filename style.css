@@ -645,6 +645,14 @@ and (orientation : landscape) {
     margin-left: 12em;
   }
 
+  .portfolioTitle {
+    margin-left: -9.75em;
+  }
+
+  hr {
+    margin-left: 14em;
+  }
+
 }
 
 
