@@ -449,6 +449,10 @@ and (orientation : landscape) {
     margin-left: 12em;
   }
 
+  .thumb {
+    width: 70%;
+  }
+
 }
 
 
@@ -533,6 +537,10 @@ and (orientation : landscape) {
 
   .des {
     margin-left: 12em;
+  }
+
+  .thumb {
+    width: 70%;
   }
 
 }
