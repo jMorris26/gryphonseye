@@ -549,9 +549,9 @@ and (orientation : landscape) {
   }
 
   .col-md-2 {
+    width: 70%;
     font-size: 1em;
-    width: 65%;
-    padding-bottom: 1em;
+    padding-bottom: 1.5em;
   }
 
   h1 {
