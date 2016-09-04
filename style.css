@@ -445,6 +445,10 @@ and (orientation : landscape) {
     transform: translate(10%);
   }
 
+  .des {
+    margin-left: 12em;
+  }
+
 }
 
 
@@ -525,6 +529,10 @@ and (orientation : landscape) {
 
   .thumbrow {
     transform: translate(10%);
+  }
+
+  .des {
+    margin-left: 12em;
   }
 
 }
