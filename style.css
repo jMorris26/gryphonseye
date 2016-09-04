@@ -358,18 +358,11 @@ and (max-device-width : 568px) {
   #centermobile {
     width: 100vw;
     float: left;
-    margin-top: -12em;
     padding-bottom: 3em;
   }
 
   .thumb {
     width: 20%;
-  }
-
-  #titledesign {
-    margin-top: 8em;
-    height: 1em;
-    margin-right: 5em;
   }
 
 
