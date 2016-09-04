@@ -367,7 +367,9 @@ and (max-device-width : 568px) {
   }
 
   #titledesign {
-    margin-top: 20em;
+    margin-top: 0em;
+    height: 1em;
+    margin-right: 5em;
   }
 
 
