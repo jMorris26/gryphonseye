@@ -485,8 +485,13 @@ and (orientation : landscape) {
     float: left;
   }
 
+  .words {
+    padding-left: 2.5em;
+  }
+  
   .col-md-1 {
     float: left;
+    width: 5%;
   }
 
   .aboutcontent {
