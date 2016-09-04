@@ -488,18 +488,18 @@ and (orientation : landscape) {
   .words {
     padding-left: 2.5em;
   }
-  
+
   .col-md-1 {
     float: left;
     width: 5%;
   }
 
   .aboutcontent {
-    margin-top: -8em;
+    margin-top: 0em;
   }
 
   #about .row {
-    height: 65em;
+    height: 90em;
   }
 
   p {
@@ -507,14 +507,14 @@ and (orientation : landscape) {
     margin-right: 14em;*/
     font-size: 2em;
     text-align: left;
-    padding-bottom: 3em;
+    padding-bottom: 1em;
   }
 
   .mecoffee {
     float: right;
-    margin-top: -90em;
+    margin-top: -120em;
     margin-left: 45em;
-    height: 50em;
+    height: 70em;
   }
 
   .col-md-3 {
