@@ -358,6 +358,7 @@ and (max-device-width : 568px) {
   #centermobile {
     width: 100vw;
     float: left;
+    margin-top: 0;
     padding-bottom: 3em;
   }
 
