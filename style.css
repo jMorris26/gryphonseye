@@ -252,6 +252,10 @@ and (orientation : portrait) {
     margin-top: 20em;
   }
 
+  .portfolioTitle {
+    margin-top: 12em;
+  }
+
 }
 
 /*iPhone5 media queries below*/
@@ -360,6 +364,10 @@ and (max-device-width : 568px) {
     float: left;
     margin-top: 0;
     padding-bottom: 3em;
+  }
+
+  .portfolioTitle {
+    margin-top: 12em;
   }
 
   .thumb {
@@ -663,7 +671,7 @@ and (orientation : landscape) {
     margin-left: -9.75em;
     margin-top: 12em;
   }
-  
+
   hr {
     margin-left: 14em;
   }
