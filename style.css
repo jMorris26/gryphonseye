@@ -466,10 +466,6 @@ and (orientation : landscape) {
     margin-left: 14em;
   }
 
-  .container {
-    margin-top: -5em;
-  }
-
 }
 
 
@@ -571,10 +567,6 @@ and (orientation : landscape) {
 
   hr {
     margin-left: 14em;
-  }
-
-  .container {
-    margin-top: -5em;
   }
 
 }
@@ -686,10 +678,6 @@ and (orientation : landscape) {
 
   hr {
     margin-left: 14em;
-  }
-
-  .container {
-    margin-top: -5em;
   }
 
 }
