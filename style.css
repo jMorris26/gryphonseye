@@ -193,8 +193,8 @@ hr {
 
 /*iPhone media queries*/
 @media only screen
-and (min-device-width : 375px)
-and (max-device-width : 667px)
+and (min-width : 375px)
+and (max-width : 667px)
 and (orientation : portrait) {
 
   html,
@@ -381,9 +381,9 @@ and (orientation : landscape) {
     overflow-x:hidden;
   }
 
-  .col-md-2 {
+  /*.col-md-2 {
     width: 30%;
-  }
+  }*/
 
   h1 {
     font-size: 6em;
@@ -403,7 +403,7 @@ and (orientation : landscape) {
   }
 
   .aboutcontent {
-    margin-top: -3em;
+    padding-top: 85em;
   }
 
   #about .row {
@@ -411,8 +411,8 @@ and (orientation : landscape) {
   }
 
   p {
-    margin-left: 6em;
-    margin-right: 20em;
+    /*margin-left: 6em;
+    margin-right: 20em;*/
     font-size: 3em;
     text-align: left;
     padding-bottom: 3em;
@@ -420,7 +420,7 @@ and (orientation : landscape) {
 
   .mecoffee {
     float: right;
-    margin-top: -40em;
+    margin-top: -90em;
     margin-left: 45em;
     height: 50em;
   }
@@ -454,13 +454,17 @@ and (orientation : landscape) {
     background-size: 100vw;
   }
 
-  .col-md-2 {
+  /*.col-md-2 {
     width: 30%;
-  }
+  }*/
 
   h1 {
     font-size: 6em;
     margin-top: -2em;
+  }
+
+  h2 {
+    font-size: 5em;
   }
 
   .alt3 {
@@ -484,8 +488,8 @@ and (orientation : landscape) {
   }
 
   p {
-    margin-left: 4em;
-    margin-right: 14em;
+    /*margin-left: 4em;
+    margin-right: 14em;*/
     font-size: 2em;
     text-align: left;
     padding-bottom: 3em;
@@ -493,7 +497,7 @@ and (orientation : landscape) {
 
   .mecoffee {
     float: right;
-    margin-top: -30em;
+    margin-top: -90em;
     margin-left: 45em;
     height: 50em;
   }
@@ -522,12 +526,17 @@ and (orientation : landscape) {
     overflow-x:hidden;
   }
 
+  .words {
+    padding-left: 2.5em;
+  }
+
   #topofpage {
     background-size: 100vw;
   }
 
   .col-md-2 {
-    width: 30%;
+    font-size: 1em;
+    width: 70%;
   }
 
   h1 {
@@ -545,6 +554,7 @@ and (orientation : landscape) {
 
   .col-md-1 {
     float: left;
+    width: 5%;
   }
 
   .aboutcontent {
@@ -556,8 +566,8 @@ and (orientation : landscape) {
   }
 
   p {
-    margin-left: 4em;
-    margin-right: 14em;
+    /*margin-left: 4em;
+    margin-right: 14em;*/
     font-size: 1.5em;
     text-align: left;
     padding-bottom: 3em;
@@ -569,8 +579,9 @@ and (orientation : landscape) {
 
   .mecoffee {
     float: right;
-    margin-top: -35em;
-    margin-left: 45em;
+    margin-top: -105em;
+    margin-left: 30em;
+    margin-right: 2em;
     height: 50em;
   }
 
@@ -611,11 +622,10 @@ and (orientation : landscape) {
 
   p {
     text-align: left;
-    margin-left: 2em;
-    margin-right: 20em;
+    /*margin-left: 2em;
+    margin-right: 20em;*/
   }
-
-
+  
   h1 {
     margin-top: -1em;
     font-size: 6em;
