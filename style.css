@@ -534,13 +534,18 @@ and (orientation : landscape) {
     padding-left: 2.5em;
   }
 
+  li {
+    font-size: 1.25em;
+  }
+
   #topofpage {
     background-size: 100vw;
   }
 
   .col-md-2 {
     font-size: 1em;
-    width: 70%;
+    width: 65%;
+    padding-bottom: 1em;
   }
 
   h1 {
