@@ -451,9 +451,6 @@ and (orientation : landscape) {
 
   .portfolioTitle {
     margin-left: -9.75em;
-  }
-
-  #titledesign {
     margin-top: 12em;
   }
 
@@ -553,9 +550,6 @@ and (orientation : landscape) {
 
   .portfolioTitle {
     margin-left: -9.75em;
-  }
-
-  #titledesign {
     margin-top: 12em;
   }
 
@@ -669,11 +663,7 @@ and (orientation : landscape) {
     margin-left: -9.75em;
     margin-top: 12em;
   }
-
-  #titledesign {
-    margin-top: 12em;
-  }
-
+  
   hr {
     margin-left: 14em;
   }
