@@ -187,6 +187,35 @@ hr {
 }
 
 
+/* ~~~~~~~~~~~~~~~~~~~ Hire Page ~~~~~~~~~~~~~~~~~~~~~~ */
+
+#madwire {
+  background-color: rgba(61, 36, 21, 1);
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+#madwire h1 {
+  margin-top: -2em;
+}
+
+.meperson {
+  border-radius: 50%;
+  margin-top: 20vh;
+  width: 100%;
+  border: 3px solid white;
+}
+
+.whyme {
+  margin-left: 8em;
+  margin-right: 8em;
+  margin-top: 4em;
+}
+
+.whyme p {
+  text-align: left;
+  padding-bottom: 3em;
+}
 
 /* ~~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~ */
 
@@ -680,6 +709,23 @@ and (orientation : landscape) {
     margin-left: 14em;
   }
 
+  .whyme {
+
+  }
+
+  .meperson {
+    margin-top: 20em;
+  }
+
+  #madwire hr {
+    margin-left: 5%;
+  }
+
+  #madwire h1 {
+    margin-top: -4em;
+  }
+
+
 }
 
 
@@ -898,4 +944,25 @@ and (orientation : portrait) {
   .aboutcontent {
     margin-left: 3em;
   }
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~ desktop ~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+@media (min-width:1025px){
+  .whyme {
+    margin-left: 40em;
+    margin-right: 40em;
+  }
+
+  .meperson {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 30em;
+  }
+
+  #madwire h1 {
+    display: block;
+  }
+
 }

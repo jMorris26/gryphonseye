@@ -9,6 +9,9 @@ app.config(function($routeProvider){
     controller: 'HomeController',
     controllerAs: 'hc'
   })
+  .when('/madwire', {
+    templateUrl: 'partials/madwire.html'
+  })
   .otherwise({
     redirectTo: '/'
   });
