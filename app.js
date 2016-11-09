@@ -7,8 +7,8 @@ app.config(function($routeProvider){
   .when('/', {
     templateUrl: 'partials/home.html'
   })
-  .when('/madwire', {
-    templateUrl: 'partials/madwire.html'
+  .when('/zayo', {
+    templateUrl: 'partials/zayo.html'
   })
   .otherwise({
     redirectTo: '/'

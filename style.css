@@ -189,32 +189,33 @@ hr {
 
 /* ~~~~~~~~~~~~~~~~~~~ Hire Page ~~~~~~~~~~~~~~~~~~~~~~ */
 
-#madwire {
-  background-color: rgba(61, 36, 21, 1);
+#zayo {
+  background-color: #f36c21;
   min-width: 100vw;
   min-height: 100vh;
 }
 
-#madwire h1 {
-  margin-top: -2em;
+#zayo h1 {
+  margin-top: -1em;
+  margin-bottom: 0;
 }
 
 .meperson {
   border-radius: 50%;
-  margin-top: 20vh;
-  width: 100%;
-  border: 3px solid white;
+  width: 50%;
+  border: 2px solid white;
 }
 
 .whyme {
   margin-left: 8em;
   margin-right: 8em;
-  margin-top: 4em;
+  margin-top: 40em;
 }
 
 .whyme p {
   text-align: left;
   padding-bottom: 3em;
+  font-size: 3em;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~ */
@@ -709,20 +710,17 @@ and (orientation : landscape) {
     margin-left: 14em;
   }
 
-  .whyme {
-
+  #zayo {
+    margin-top: 4em;
   }
 
-  .meperson {
-    margin-top: 20em;
-  }
-
-  #madwire hr {
+  #zayo hr {
     margin-left: 5%;
+    width: 100%;
   }
 
-  #madwire h1 {
-    margin-top: -4em;
+  #zayo h1 {
+    margin-top: -0;
   }
 
 
@@ -953,16 +951,34 @@ and (orientation : portrait) {
   .whyme {
     margin-left: 40em;
     margin-right: 40em;
-  }
-
-  .meperson {
-    width: 50%;
-    margin-left: 25%;
     margin-top: 30em;
   }
 
-  #madwire h1 {
+  .whyme p {
+    font-size: 1.5em;
+  }
+
+  .meperson {
+    width: 70%;
+    margin-top: -2em;
+    /*margin-top: 25em;*/
+    float: left;
+    margin-bottom: 3em;
+  }
+
+  .zayoleft {
+    float: right;
+    width: 40%;
+  }
+
+  .zayoright {
+    width: 40%;
+    float: left;
+  }
+
+  #zayo h1 {
     display: block;
+    margin-top: -2em;
   }
 
 }
